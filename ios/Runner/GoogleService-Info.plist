@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>224796556096-0cdmtbrrkfcorcfln5tcu5oaumkms6un.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.224796556096-0cdmtbrrkfcorcfln5tcu5oaumkms6un</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>224796556096-b0kf7777pp2h2cqqfs1va87mei773csc.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBomWUu6An6JSk_9uUU53Ox9rDmdH_bNpc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>224796556096</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.lovelyAutous</string>
+	<key>PROJECT_ID</key>
+	<string>lovely-autos-b4b26</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lovely-autos-b4b26.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:224796556096:ios:e670994d0550edd09958a5</string>
+</dict>
+</plist>

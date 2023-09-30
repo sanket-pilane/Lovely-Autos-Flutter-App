@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "224796556096",
+    "project_id": "lovely-autos-b4b26",
+    "storage_bucket": "lovely-autos-b4b26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224796556096:android:2ca2b6a54760236a9958a5",
+        "android_client_info": {
+          "package_name": "com.example.lovely_autous"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224796556096-furna3uuu1pssfcc78mvahcvr5dctrph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKphXQ3pN8MPLjXMrfz9tGnUXCVJezAp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224796556096-furna3uuu1pssfcc78mvahcvr5dctrph.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "224796556096-3r5vluc718jik6cgbdi9s2e4usee2kov.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lovelyAutos"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
