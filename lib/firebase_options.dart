@@ -3,6 +3,8 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
+import 'package:flutter/services.dart';
+import 'package:lovely_autous/src/key.dart';
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
@@ -50,7 +52,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDKphXQ3pN8MPLjXMrfz9tGnUXCVJezAp4',
+    apiKey: GKEY,
     appId: '1:224796556096:android:2ca2b6a54760236a9958a5',
     messagingSenderId: '224796556096',
     projectId: 'lovely-autos-b4b26',
@@ -58,13 +60,15 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBomWUu6An6JSk_9uUU53Ox9rDmdH_bNpc',
+    apiKey: GKEY,
     appId: '1:224796556096:ios:e670994d0550edd09958a5',
     messagingSenderId: '224796556096',
     projectId: 'lovely-autos-b4b26',
     storageBucket: 'lovely-autos-b4b26.appspot.com',
-    androidClientId: '224796556096-b0kf7777pp2h2cqqfs1va87mei773csc.apps.googleusercontent.com',
-    iosClientId: '224796556096-0cdmtbrrkfcorcfln5tcu5oaumkms6un.apps.googleusercontent.com',
+    androidClientId:
+        '224796556096-b0kf7777pp2h2cqqfs1va87mei773csc.apps.googleusercontent.com',
+    iosClientId:
+        '224796556096-0cdmtbrrkfcorcfln5tcu5oaumkms6un.apps.googleusercontent.com',
     iosBundleId: 'com.example.lovelyAutous',
   );
 }
