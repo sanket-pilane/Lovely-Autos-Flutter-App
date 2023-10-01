@@ -47,4 +47,4 @@ const kOnBoardingImage = "assets/materials/landing_page.jpg";
 const kAuthImage = "assets/materials/auth_image.jpg";
 const kGoogleLogo = "assets/materials/search.png";
 const kFaceboolLogo = "assets/materials/facebook.png";
-// const kUserLogo = "assets/materials/user.png";
+const kUserLogo = "assets/materials/user.jpg";

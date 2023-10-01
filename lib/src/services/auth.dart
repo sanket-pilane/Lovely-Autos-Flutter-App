@@ -8,6 +8,10 @@ class FirebaseAuthMethods {
 
   FirebaseAuthMethods(this._auth);
 
+  signOut() {
+    _auth.signOut();
+  }
+
   Future<void> signInWithEmailAndPassword({
     required BuildContext context,
     required String email,
