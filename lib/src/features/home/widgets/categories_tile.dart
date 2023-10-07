@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lovely_autous/src/features/categories/pages/categories_page.dart';
 import 'package:lovely_autous/src/features/home/model/categories.dart';
 
 class CategoriesTile extends StatefulWidget {
@@ -23,9 +24,13 @@ class _CategoriesTileState extends State<CategoriesTile> {
             child: Column(
               children: [
                 GestureDetector(
+                  onTap: () => Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) =>
+                        CategoriePage(title: categories[index].name!),
+                  )),
                   child: Container(
-                    padding: EdgeInsets.all(20),
-                    decoration: BoxDecoration(
+                    padding: const EdgeInsets.all(20),
+                    decoration: const BoxDecoration(
                       shape: BoxShape.circle,
                       color: Colors.black87,
                     ),

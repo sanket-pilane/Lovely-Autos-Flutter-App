@@ -10,8 +10,8 @@ class Categories {
 }
 
 List<Categories> categories = [
-  Categories(logoPath: kBmwLogo, name: "Bmw"),
-  Categories(logoPath: kJaugarLogo, name: "Jaquar"),
+  Categories(logoPath: kBmwLogo, name: "BMW"),
+  Categories(logoPath: kJaugarLogo, name: "Jaguar"),
   Categories(logoPath: kRollsLogo, name: "Rolls Royce"),
   Categories(logoPath: kToyotaLogo, name: "Toyota"),
   Categories(logoPath: kFerrariLogo, name: "Ferrari"),

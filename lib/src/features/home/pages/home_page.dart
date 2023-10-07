@@ -5,8 +5,10 @@ import 'package:lovely_autous/src/features/details/pages/detail_page.dart';
 import 'package:lovely_autous/src/features/home/model/cars.dart';
 import 'package:lovely_autous/src/features/home/widgets/cars_grid.dart';
 import 'package:lovely_autous/src/features/home/widgets/categories_tile.dart';
+import 'package:lovely_autous/src/features/home/widgets/menu_items.dart';
 
 import 'package:lovely_autous/src/services/auth.dart';
+import 'package:popover/popover.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -53,7 +55,16 @@ class HomePage extends StatelessWidget {
                         ],
                       ),
                       IconButton(
-                        onPressed: () => signOut(),
+                        onPressed: () {
+                          showPopover(
+                            height: 100,
+                            width: 100,
+                            context: context,
+                            bodyBuilder: (context) {
+                              return MenuItem();
+                            },
+                          );
+                        },
                         icon: const Icon(
                           Icons.settings,
                           size: 30,
