@@ -47,9 +47,12 @@ class CategoriePage extends StatelessWidget {
                     title,
                     style: const TextStyle(
                         color: Colors.black,
-                        fontSize: 16,
+                        fontSize: 20,
                         fontWeight: FontWeight.bold),
-                  )
+                  ),
+                  const SizedBox(
+                    width: 50,
+                  ),
                 ],
               ),
             ),
