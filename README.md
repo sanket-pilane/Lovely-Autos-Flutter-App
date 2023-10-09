@@ -50,7 +50,7 @@ To get started with Lovely Autos, follow these steps:
 
 2. Navigate to the project directory:
    ```shell
-   cd sushi-man
+   cd lovely_autos
 
 3. Install dependencies:
    ```shell
