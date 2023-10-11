@@ -1,14 +1,13 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lovely_autous/src/constants/image_strings.dart';
 import 'package:lovely_autous/src/features/details/pages/detail_page.dart';
 import 'package:lovely_autous/src/features/home/model/cars.dart';
 import 'package:lovely_autous/src/features/home/widgets/cars_grid.dart';
 import 'package:lovely_autous/src/features/home/widgets/categories_tile.dart';
-import 'package:lovely_autous/src/features/home/widgets/menu_items.dart';
 
 import 'package:lovely_autous/src/services/auth.dart';
-import 'package:popover/popover.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -37,6 +36,7 @@ class HomePage extends StatelessWidget {
                       GestureDetector(
                         onTap: () => signOut,
                         child: const CircleAvatar(
+                            minRadius: 26,
                             backgroundImage: AssetImage(kUserLogo)),
                       ),
                       const Column(
@@ -56,17 +56,10 @@ class HomePage extends StatelessWidget {
                       ),
                       IconButton(
                         onPressed: () {
-                          showPopover(
-                            height: 100,
-                            width: 100,
-                            context: context,
-                            bodyBuilder: (context) {
-                              return MenuItem();
-                            },
-                          );
+                          signOut();
                         },
                         icon: const Icon(
-                          Icons.settings,
+                          CupertinoIcons.ellipsis_vertical,
                           size: 30,
                         ),
                       ),
@@ -91,6 +84,7 @@ class HomePage extends StatelessWidget {
                         ),
                         hintText: "Search your car",
                         filled: true,
+                        contentPadding: EdgeInsets.zero,
                         fillColor: Colors.white),
                   ),
                   const SizedBox(
