@@ -5,7 +5,7 @@
 Welcome to Lovely Autos, a Flutter app that lets you explore the latest luxury cars, complete with pricing and ratings. This project serves as a great learning experience, allowing you to gain valuable insights into various aspects of Flutter app development.
 
 ## What I Learned
-haha
+
 Throughout the development of Lovely Autos, I had the opportunity to learn and master several important concepts and skills:
 
 - Manipulating data in a ListView to efficiently display car information.
